@@ -27,8 +27,9 @@
 本仓库按个人 GitHub 项目通用框架（`~/code/agent-norms/public-repo/project-standard.md`）
 逐项核对，2026-10-14 结果如下。
 
-**已经具备**：`README.md` + `README.zh-CN.md`（中英互链）、本文件（框架记录）、
-GitHub Releases 作为分发渠道；根目录只有标准文件。
+**已经具备**：`README.md` + `README.zh-CN.md`（中英互链）、`CONTRIBUTING.md`（本文件）、
+`SECURITY.md`、`SUPPORT.md`、`.github/pull_request_template.md`、GitHub Releases 作为分发渠道；
+根目录只有标准文件。
 
 **已知差异**（每条带理由）：
 
