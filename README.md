@@ -1,15 +1,24 @@
 # Wenyin downloads
 
-[中文说明](README.zh-CN.md)
+Wenyin is a local macOS app that redacts sensitive information before a document is shared with AI. This public repository distributes installers only; the application source is private.
 
-Wenyin is a local macOS document redaction app. This public repository distributes DMG installers only; application source code is private.
+## Download
 
-Download the beta installer from [Releases](https://github.com/songoao25/wenyin-downloads/releases) or the [download page](https://brickindex.pages.dev/#/service/wenyin). The current build is **1.3.0 (220)** for Apple silicon Macs, targeting macOS 12 or later.
+| Your network | Route | Link |
+| --- | --- | --- |
+| Mainland China | Gitee (fast domestically) | https://gitee.com/songoao25/wenyin-downloads/releases |
+| Overseas or with a proxy | GitHub (this repository) | https://github.com/songoao25/wenyin-downloads/releases |
 
-Open the DMG, drag Wenyin into Applications, and launch it. This distribution is not notarized. If macOS blocks it, first try opening the app, then choose **Open Anyway** for Wenyin in System Settings → Privacy & Security (macOS 12: System Preferences → Security & Privacy). Do not disable system security.
+Both routes publish the same build. On a mainland network the GitHub route is often slow or unreachable, so use Gitee; from overseas, GitHub is usually faster. The app can also switch between the two update routes in **Settings → Updates**.
 
-Import DOCX or text-based PDF, review detected details, and inspect the exported copy. Detection is incomplete; do not rely on automatic detection alone. Scanned documents are not supported.
+Current build: **2.0.3 (245)**, Apple silicon Macs, macOS 12 or later.
 
-Updates are checked automatically by default; click the yellow icon at the lower left to download, install and reopen. Settings offer automatic or manual updates. Document processing stays on your Mac. The update/download service receives network requests; documents and usage statistics are not uploaded.
+Version retention: this repository keeps every released version. The Gitee mirror keeps only the latest three because of its 1 GB attachment limit per repository.
 
-All rights reserved for Wenyin. This is not an open-source repository. Third-party license notices are included in the application.
+## Install
+
+Open the DMG, drag Wenyin into Applications, then launch it. The build is not notarized. If macOS blocks it, try to open the app once, then choose **Open Anyway** for Wenyin in System Settings → Privacy & Security (macOS 12: System Preferences → Security & Privacy). Keep system security enabled.
+
+Import DOCX or text-based PDF, review the detected details, then inspect the exported copy. Detection is incomplete, so review every item; scanned documents are not supported. Documents are processed on your Mac only. Only the update check uses the network; documents and usage statistics are never uploaded.
+
+All rights reserved. This is not an open-source repository. Third-party licence notices are included in the application.
