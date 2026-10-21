@@ -11,7 +11,7 @@ Wenyin is a local macOS app that redacts sensitive information before a document
 
 Both routes publish the same build. On a mainland network the GitHub route is often slow or unreachable, so use Gitee; from overseas, GitHub is usually faster. The app can also switch between the two update routes in **Settings → Updates**.
 
-Current build: **2.0.3 (245)**, Apple silicon Macs, macOS 12 or later.
+Current build: **2.0.6 (248)**, Apple silicon Macs, macOS 12 or later.
 
 Version retention: this repository keeps every released version. The Gitee mirror keeps only the latest three because of its 1 GB attachment limit per repository.
 
@@ -21,4 +21,4 @@ Open the DMG, drag Wenyin into Applications, then launch it. The build is not no
 
 Import DOCX or text-based PDF, review the detected details, then inspect the exported copy. Detection is incomplete, so review every item; scanned documents are not supported. Documents are processed on your Mac only. Only the update check uses the network; documents and usage statistics are never uploaded.
 
-All rights reserved. This is not an open-source repository. Third-party licence notices are included in the application.
+All rights reserved. This is not an open-source repository. Third-party licence notices are included in the application; the same text is linked from the legal page on the website.
