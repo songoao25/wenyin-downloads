@@ -11,7 +11,7 @@ Wenyin is a local macOS app that redacts sensitive information before a document
 
 Both routes publish the same build. On a mainland network the GitHub route is often slow or unreachable, so use Gitee; from overseas, GitHub is usually faster. The app can also switch between the two update routes in **Settings → Updates**.
 
-Current build: **2.0.6 (248)**, Apple silicon Macs, macOS 12 or later.
+Current build: **2.0.8 (256)**, Apple silicon Macs, macOS 12 or later.
 
 Version retention: this repository keeps every released version. The Gitee mirror keeps only the latest three because of its 1 GB attachment limit per repository.
 
